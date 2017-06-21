@@ -19,17 +19,20 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 20
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Enable i18n plugin.
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+
+# Theme
+THEME = 'theme'
+
+BROWSER_COLOR = '#333'
+ROBOTS = 'index, follow'
+
+COPYRIGHT_YEAR = 2017
+
+STATIC_PATHS = ['images', 'extra/CNAME', 'static']
