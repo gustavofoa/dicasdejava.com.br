@@ -1,0 +1,30 @@
+language: python
+python:
+- '3.5'
+sudo: required
+branches:
+  only:
+  - master
+before_install:
+- openssl aes-256-cbc -K $encrypted_6055c90bf0c8_key -iv $encrypted_6055c90bf0c8_iv
+  -in publish-key.enc -out ~/.ssh/publish-key -d
+- chmod u=rw,og= ~/.ssh/publish-key
+- echo "Host github.com" >> ~/.ssh/config
+- echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
+- echo "Configure locale"
+- sudo locale-gen pt_BR pt_BR.UTF-8
+- sudo dpkg-reconfigure locales
+- LC_TIME=pt_BR.UTF-8
+- date
+- locale -a
+- git remote set-url origin git@github.com:gustavofoa/dicasdejava.com.br.git
+- git fetch origin -f gh-pages:gh-pages
+install:
+- pip install --upgrade pip
+- pip install -r requirements.txt
+script:
+- make github
+env:
+  global:
+  - secure: G6JjV/pZDxNKcbiYWZFAjMeYQqx8A6qm/f1uIU1A/5I5XgzRcv3S/oTtaJcW9AUtPSTWyBkSX+8VJmn/zu7UwoYERsMKd2cJwW7cSDf+YJLa0nDtYo8U70zT6fD0v+ZdVDaHE45foJIc75qMvWh+eQ+5bmQBKpIWi7PsvFjksKAW/U/hw8iamfGsten4ExjsgsKQ+x8CLzqOnUDq3sXY+rZLEs1xk1kinT0p5ZtfB4skhWiitkwiIHdGl6svPuivXkbjhUC+cyO5pdTzI3v1So7Q7W27wsA19PS3uh5toJb1ESS7LFNuROuUMVgt4oChc3Y84vD/hhU+Fkn6xINboa2Bi6K8dksFRyFtz1HUZai1WKka/Fz8h4muCuePP1/9ZffIUrL1dZhT0p75USFmikBV9QcqnPr+LBfGU4264KoQo4XgHOGvMsxKcPdtkc4HJ5qZ44tqncivBsS1nR2GxutWFyOf+bZjr3NnB61uqsCjqeDhSaOVrMbIIxbl8m7Gw2d6Q3JJ2q9AgUNtYgUdBpk6oDOzd/4a2RX7azdvfYJ4eyCPKZxfV4f69sr/5/fYMDZA+Mf6JXoVAvNdSaKyRBqDLJVjn3vG/QkIJMDmM5HQ5vhnks9mFDbWdtUrtaSdRM7XP58b6No60ZL1+PFUsI+qHGUU3gyTcfB86Y+Hrd8=
+  - secure: UvL8wCdxN5BS3cepqj2MSf2PmlYpzxp2rsJcsNq7BbWgE3v9eZtdCToz3addclP3xt0slT5gviSz4pQv//l+iPMyTwXzAX8j1dPhDfI92thxX/sne+43GdKfTZUn28tf3Ldgy9J8ijMkvLZmpCY8idP6HqYOkOOqf1rwtSZmN1OpIgZwexzZP5hjKEPNXolEYkgo5T05l4aP+59CuBBTmb4KE2ExJ0+XF4f2A9rmSzSD9wt5aSvL3MZpfs3sDD3hc8pG9DHI+mAty2XilZFpBjb4S12FVxsEYQFF1wxQPIa+Qb6+vDjfBZ21z4nH+5mN/hCNw+HI8q3p6H8ayrWGDYTllAxFvNY767d0xZ+3GWYkx2Ou59pS8Yparn2rFbZAi2ZhmkldJaVDpGUrFNP2NFGcXkqMjN87sJ8eiiIuVJ5N9QgF3GUE9tUR3bxU6cLJ4XdtrcKdwoTVUODOjqR68FtyjZ4mGUfwsLZB+JkMSwBEhKLDPsF8Goss9WJdHAaiUcw18eFfX2+oOqVr8Ds3rhj25KfkdnWTJqQL7CIY/mttwUbT4qj9MDjgFe2XdhNK/SSMFMExgP6yC0zVTVtG8LWhR5yefcJoSw8ktmcDECnqIkn/NDbg3xma9PcksrhClcxAk8fu2QxE3zuSZS6TDwpxjnsYTKKHZT4LkwNAPlA=
