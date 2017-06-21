@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   repo: gustavofoa/dicasdejava.com.br
-  target_branch: gp-pages
+  target_branch: gh-pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: output
