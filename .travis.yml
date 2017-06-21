@@ -10,6 +10,12 @@ install:
   - pip install -r requirements.txt
 script:
   - make publish github
-env:
-  global:
-    secure: KtgU5HIcw35TVwD7/1l1kAKhj4zTdQV3K0AuOThdN8LNl5NKKK6F4Eo43dVp1I6h5AY6mGqXTXB67yIhtLM/AjJ46MiA3vqPiFF1l/lotdSc0CZ8RsxJw7pu3Nw/lSpFSx2U/hsz2VnuPZML4TBp2TV6oaVlGBDo+C9uDWuNhD0JkgaNio0+cxtboRKafeDRwRr5ATolrZlIk0l9rThzO3+8W0UV/yv0JBqCBdukcp47fXxoTmJvLtkZOy0XcpQvGb6jUthWrfNxiKp4MpBNtmDQu++hUPfklLdeHvgnEi2zTt2+A7F6Ws83YuMwIpKk1wxrj/FOjw0mV4m39a+d6hzBGmDuLIUhXk/YadgFn2cN+d6BHXkGzNfNaBdRbRG/lgTAhaTNLrg69MjB2c0K4kwMeUkfS3X/qbZO/C60t63g0AcBLbO2REvQNBUtTMd6O3dRvggibmW01D40Hr+eikQ2rKSoagEAv1hZXOPEj+Sx5knxGUJ8yFgiNxidJINdjASWhf5bn1C4p9WZVoNJzdX81TRg/xHiRru7Rb8jVzZv2PQGi5oZ/g+1nR8TPEHRTbOspSjY7XEzgTojAJAOhw9+N7SM0qKvy/2r9aHtzFEvlNCHnuUIiAcKhGKSuY6vNUQyZlQlifeVuIB75Q3j1ZllY4mh74Ln0ekWGu7rdvk=
+deploy:
+  provider: pages
+  repo: gustavofoa/dicasdejava.com.br
+  target_branch: gp-pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: output
+  on:
+    branch: master
