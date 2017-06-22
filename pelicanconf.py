@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Gustavo Furtado de Oliveira Alves'
 SITENAME = '{ Dicas de Java }'
-SITEURL = ''
+SITEURL = 'http://dicasdejava.com.br'
 
 PATH = 'content'
 
@@ -29,12 +29,17 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'}
 }
 
-# Enable i18n plugin.
-# PLUGIN_PATHS = ['./pelican-plugins']
-# PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+# Plugins
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 
 # Theme
 THEME = 'theme'
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
+
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
