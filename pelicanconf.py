@@ -35,4 +35,4 @@ ROBOTS = 'index, follow'
 
 COPYRIGHT_YEAR = 2017
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'static']
+STATIC_PATHS = ['extra/CNAME', 'static']
