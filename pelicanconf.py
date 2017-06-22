@@ -23,7 +23,7 @@ DEFAULT_PAGINATION = 20
 
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['extra/CNAME', 'static']
+STATIC_PATHS = ['extra/CNAME']
 
 # Enable i18n plugin.
 # PLUGIN_PATHS = ['./pelican-plugins']
