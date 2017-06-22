@@ -23,16 +23,14 @@ DEFAULT_PAGINATION = 20
 
 RELATIVE_URLS = True
 
+STATIC_PATHS = ['extra/CNAME', 'static']
+
 # Enable i18n plugin.
-PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
+# PLUGIN_PATHS = ['./pelican-plugins']
+# PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
 
 # Theme
 THEME = 'theme'
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
-
-COPYRIGHT_YEAR = 2017
-
-STATIC_PATHS = ['extra/CNAME', 'static']
