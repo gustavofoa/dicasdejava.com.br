@@ -25,6 +25,10 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = ['extra/CNAME']
 
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'}
+}
+
 # Enable i18n plugin.
 # PLUGIN_PATHS = ['./pelican-plugins']
 # PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
