@@ -13,7 +13,13 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
-DEFAULT_LANG = u'pt_BR'
+# Default theme language.
+I18N_TEMPLATES_LANG = 'pt_BR'
+# Your language.
+DEFAULT_LANG = 'pt_BR'
+OG_LOCALE = 'pt_BR'
+LOCALE = ('pt','bra', 'pt_BR')
+LANGUAGE = 'pt_BR'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -61,7 +67,7 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 DEFAULT_PAGINATION = 20
-SUMMARY_MAX_LENGTH = 20
+SUMMARY_MAX_LENGTH = 30
 
 AUTHORS = {
     'Gustavo Furtado de Oliveira Alves': {
