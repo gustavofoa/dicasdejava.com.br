@@ -1,0 +1,13 @@
+<div class="entry-author">
+  <h3 class="title">Sobre {{ author }}</h3>
+  <div class="author-avatar">
+    <img alt='' src='{{ AUTHORS[author.name].image }}' class='avatar avatar-68 photo' height='68' width='68' />				</div><!-- /author-avatar -->
+  <div class="author-description">
+    {{ AUTHORS[author.name].summary }}
+    <div id="author-link">
+      <a href="{{ SITEURL }}/{{ author.url }}" rel="author">
+        Veja todos os artigos de {{ author }} <span class="meta-nav">&rarr;</span>
+      </a>
+    </div><!-- /author-link	-->
+  </div><!-- /author-description -->
+</div><!-- /author-info -->
