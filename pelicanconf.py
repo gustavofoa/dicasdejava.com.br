@@ -61,7 +61,7 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 DEFAULT_PAGINATION = 20
-SUMMARY_MAX_LENGTH = 40
+SUMMARY_MAX_LENGTH = 20
 
 AUTHORS = {
     'Gustavo Furtado de Oliveira Alves': {

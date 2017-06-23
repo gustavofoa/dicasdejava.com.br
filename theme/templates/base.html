@@ -38,25 +38,52 @@
   <link rel="stylesheet" href="/theme/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- Tema opcional -->
-  <link rel="stylesheet" href="/theme/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <!--<link rel="stylesheet" href="/theme/bootstrap/3.3.7/css/bootstrap-theme.min.css">-->
 
   <!-- Pygment -->
   <link rel="stylesheet" href="/theme/css/pygment.css">
 
+  <!-- Style -->
+  <link rel="stylesheet" href="/theme/css/style.css">
+
 </head>
 
-<body id="index" class="home">
+<body>
 
   {% include 'navbar.html' %}
 
-  <div class="container" role="main">
 
-    {% block content %}
-    {% endblock %}
+  <!-- Page Content -->
+  <div class="container">
 
+    <div class="row">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8">
+      {% block content %}
+      {% endblock %}
+      </div>
+
+      <div class="col-md-4">
+        <div class="well">
+          <p>ADS</p>
+        </div>
+        <div class="well">
+          <p>ADS</p>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <section id="footer" class="row">
   {% include 'footer.html' %}
+  </section>
+
+</section>
 
   <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

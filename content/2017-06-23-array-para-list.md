@@ -29,7 +29,7 @@ public class ArrayParaList {
 
 ```
 
-Saída
+Saída:
 
 ```
 [Gustavo, Maria, José, João, Ana]
