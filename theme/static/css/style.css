@@ -7,6 +7,10 @@ footer {
     margin: 50px 0;
 }
 
+.banner-top {
+	padding-bottom: 20px;
+}
+
 .article-thumbnail {
 	float: left;
 }
