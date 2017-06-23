@@ -13,7 +13,7 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="blog-menu">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         {% if DISPLAY_CATEGORIES_ON_MENU %}
         {% for cat, null in categories %}
         <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
