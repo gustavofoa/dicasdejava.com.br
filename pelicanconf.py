@@ -69,16 +69,6 @@ PAGINATION_PATTERNS = (
 DEFAULT_PAGINATION = 20
 SUMMARY_MAX_LENGTH = 30
 
-AUTHORS = {
-    'Gustavo Furtado de Oliveira Alves': {
-        'summary':'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
-                  'Engenheiro da Computação pela ETEP Faculdades e '+
-                  'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
-                  'Possui as certificações SCJP, SCWCD e ASF e trabalha com desenvolvimento de softwares desde 2007.',
-        'image': '/images/author-gustavo.jpeg'
-    }
-}
-
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -90,5 +80,25 @@ SITEMAP = {
         'articles': 'monthly',
         'indexes': 'daily',
         'pages': 'monthly'
+    }
+}
+
+AUTHORS = {
+    'Gustavo Furtado de Oliveira Alves': {
+        'summary': 'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
+                  'Engenheiro da Computação pela ETEP Faculdades e '+
+                  'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
+                  'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
+                  'e trabalha com desenvolvimento de softwares desde 2007.',
+        'image': '/images/author-gustavo.jpeg',
+        'adsense': {
+          'adClientId' : '<< YOUR AD CLIENT>>',
+          'adSlot' : {
+            'top_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>',
+            'lside_250x250' : '<< AD-SLOT FOR THE 250X250 BANNER >>',
+            'articleBottom_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>',
+            'homeBottom_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>'
+          }
+        }
     }
 }
