@@ -13,7 +13,7 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
-DEFAULT_LANG = u'pt-br'
+DEFAULT_LANG = u'pt_BR'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
