@@ -5,6 +5,13 @@ sudo: required
 branches:
   only:
   - master
+before_install:
+  - echo "Configure locale"
+  - sudo locale-gen pt_BR pt_BR.UTF-8
+  - sudo dpkg-reconfigure locales
+  - LC_TIME=pt_BR.UTF-8
+  - date
+  - locale -a
 install:
   - pip install --upgrade pip
   - pip install -r requirements.txt
