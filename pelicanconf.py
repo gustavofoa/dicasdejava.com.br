@@ -83,6 +83,15 @@ SITEMAP = {
     }
 }
 
+DEFAULT_ADSENSE = {
+	'adClientId' : 'ca-pub-6041601556788047',
+	'adSlot' : {
+		'top_responsible' : '9578335779',
+		'rside_300x600' : '3531802173',
+		'bottom_responsible' : '7962001772'
+	}
+}
+
 AUTHORS = {
     'Gustavo Furtado de Oliveira Alves': {
         'summary': 'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
@@ -92,12 +101,11 @@ AUTHORS = {
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg',
         'adsense': {
-          'adClientId' : '<< YOUR AD CLIENT>>',
+          'adClientId' : 'ca-pub-6041601556788047',
           'adSlot' : {
-            'top_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>',
-            'lside_250x250' : '<< AD-SLOT FOR THE 250X250 BANNER >>',
-            'articleBottom_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>',
-            'homeBottom_responsible' : '<< AD-SLOT FOR THE RESPONSIBLE BANNER >>'
+            'top_responsible' : '9578335779',
+            'rside_300x600' : '3531802173',
+            'bottom_responsible' : '7962001772'
           }
         }
     }

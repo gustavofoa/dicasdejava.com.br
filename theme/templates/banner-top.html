@@ -1,8 +1,8 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-6041601556788047"
-     data-ad-slot="9578335779"
+     data-ad-client="{% if article and AUTHORS[article.author] %}{{ AUTHORS[article.author].adsense.adClientId }}{% else %}{{DEFAULT_ADSENSE['adClientId']}}{% endif %}"
+     data-ad-slot="{% if article and AUTHORS[article.author] %}{{ AUTHORS[article.author].adsense.adSlot.top_responsible }}{% else %}{{DEFAULT_ADSENSE['adSlot'].top_responsible}}{% endif %}"
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
