@@ -13,7 +13,7 @@ TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
-DEFAULT_LANG = u'pt_BR'
+DEFAULT_LANG = u'pt-br'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -36,6 +36,7 @@ PLUGINS = ['sitemap']
 
 # Theme
 THEME = 'theme'
+DISPLAY_CATEGORIES_ON_MENU = True;
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
