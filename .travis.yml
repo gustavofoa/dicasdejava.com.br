@@ -9,7 +9,7 @@ before_install:
   - echo "Configure locale"
   - sudo locale-gen pt_BR pt_BR.UTF-8
   - sudo dpkg-reconfigure locales
-  - LC_TIME=pt_BR.UTF-8
+  - LC_TIME=pt_BR.utf-8
   - date
   - locale -a
 install:
