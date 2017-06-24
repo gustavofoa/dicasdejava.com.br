@@ -42,6 +42,9 @@
     {{ article.content }}
   </div><!-- /.entry-content -->
 
+    {% set author = article.author %}
+    {% include 'author-info.html' %}
+
     {% include 'banner-bottom.html' %}
 
     {% include 'comments.html' %}

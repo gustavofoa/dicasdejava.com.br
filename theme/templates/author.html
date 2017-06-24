@@ -2,6 +2,11 @@
 
 {% block title %}{{ SITENAME }} - Articles by {{ author }}{% endblock %}
 {% block content_title %}
-<h2>Articles by {{ author }}</h2>
+
+<div class="content">
+{% include 'author-info.html' %}
+</div>
+
+<h2>Posts de {{ author }}</h2>
 {% endblock %}
 

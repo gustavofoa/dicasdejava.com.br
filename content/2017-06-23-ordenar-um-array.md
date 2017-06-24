@@ -3,7 +3,7 @@ date: 2017-06-23
 author: Gustavo Furtado de Oliveira Alves
 category: Java Util
 tags: Array, Arrays
-image: /images/logo_java.png
+image: /images/logo-java.png
 
 Para ordenar um Array (Vetor) nós podemos utilizar a classe java.util.Arrays
 que é nativa da API java.
