@@ -79,8 +79,10 @@
 
   {% include 'analytics.html' %}
 
+  {% if DISQUS_SITENAME %}
   <!-- Disqus comments -->
   <script id="dsq-count-scr" src="//{{ DISQUS_SITENAME }}.disqus.com/count.js" async></script>
+  {% endif %}
 
   <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
