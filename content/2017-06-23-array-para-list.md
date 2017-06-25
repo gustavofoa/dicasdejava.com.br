@@ -1,7 +1,7 @@
 title: Como converter Array para List em Java
 date: 2017-06-23
 author: Gustavo Furtado de Oliveira Alves
-category: Java Util
+category: Util
 tags: Array, List, Arrays
 image: /images/logo-java.png
 
@@ -26,7 +26,6 @@ public class ArrayParaList {
 		System.out.println(listaDeNomes);
 	}
 }
-
 ```
 
 Saída:

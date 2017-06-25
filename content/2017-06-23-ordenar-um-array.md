@@ -1,7 +1,7 @@
 title: Como ordenar um Array em Java
 date: 2017-06-23
 author: Gustavo Furtado de Oliveira Alves
-category: Java Util
+category: Util
 tags: Array, Arrays
 image: /images/logo-java.png
 
@@ -48,7 +48,6 @@ public class OrdenarArray {
 
 	}
 }
-
 ```
 
 Saída:
