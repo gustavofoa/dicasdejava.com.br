@@ -98,7 +98,7 @@ Da direita para a esquerda...
 Aplicando o operador **E** aos valores 10 e 12 a nível de bits (binário), temos o seguinte resultado.
 
 ```
-10 | 12 = 8
+10 & 12 = 8
 
 1010
 1100
