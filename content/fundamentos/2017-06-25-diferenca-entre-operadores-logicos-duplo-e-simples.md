@@ -29,7 +29,7 @@ Vamos ver um exemplo...
 ##Exemplo:
 
 ```java
-package br.com.dicasdejava;
+package br.com.dicasdejava.fundamentos;
 
 public class OperadoresLogicosDuploOuSimples {
 

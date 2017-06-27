@@ -23,7 +23,7 @@ basta utilizarmos os operadores **&**, **|** e **^**.
 ##Exemplo:
 
 ```java
-package br.com.dicasdejava;
+package br.com.dicasdejava.fundamentos;
 
 public class OperacoesBitwise {
 

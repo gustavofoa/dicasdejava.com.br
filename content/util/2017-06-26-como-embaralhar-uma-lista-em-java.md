@@ -12,7 +12,7 @@ que é nativa da API java.
 Veja no exemplo abaixo como embaralhar os valores de um List.
 
 ```java
-package br.com.dicasdejava;
+package br.com.dicasdejava.util;
 
 import java.util.Arrays;
 import java.util.Collections;
