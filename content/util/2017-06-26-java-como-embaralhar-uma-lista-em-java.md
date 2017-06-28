@@ -1,4 +1,4 @@
-title: Como embaralhar uma lista em Java
+title: Java: Como embaralhar uma lista
 date: 2017-06-26
 author: Gustavo Furtado de Oliveira Alves
 category: Util

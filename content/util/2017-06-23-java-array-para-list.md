@@ -1,4 +1,4 @@
-title: Como converter Array para List em Java
+title: Java: Como converter Array para List
 date: 2017-06-23
 author: Gustavo Furtado de Oliveira Alves
 category: Util

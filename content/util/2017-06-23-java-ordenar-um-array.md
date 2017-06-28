@@ -1,4 +1,4 @@
-title: Como ordenar um Array em Java
+title: Java: Como ordenar um Array
 date: 2017-06-23
 author: Gustavo Furtado de Oliveira Alves
 category: Util

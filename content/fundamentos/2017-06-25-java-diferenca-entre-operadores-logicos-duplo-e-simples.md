@@ -1,4 +1,4 @@
-title: Diferença entre os operadores &&, &, || e | em Java
+title: Java: Diferença entre os operadores &&, &, || e |
 date: 2017-06-25
 author: Gustavo Furtado de Oliveira Alves
 category: Fundamentos

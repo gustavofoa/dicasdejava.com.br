@@ -1,4 +1,4 @@
-title: Operadores Bitwise em Java
+title: Java: Operadores Bitwise
 date: 2017-06-24
 author: Gustavo Furtado de Oliveira Alves
 category: Fundamentos
