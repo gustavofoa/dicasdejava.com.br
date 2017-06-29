@@ -1,5 +1,5 @@
 title: Java: Como converter Array para List
-date: 2017-06-23
+date: 2017-06-22
 author: Gustavo Furtado de Oliveira Alves
 category: Util
 tags: Array, List, Arrays
