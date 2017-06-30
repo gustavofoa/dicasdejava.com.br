@@ -18,10 +18,12 @@ se você abrir o prompt de comando do Windows (ou o "Executar") e executar o com
 o software _Bloco de Notas_ vai abrir o seu arquivo que foi informado como argumento na linha comando.
 
 O que foi informado na frente do comando para a execução do software
-é chamado de "Argumento de linha de comando".
+é chamado de **Argumento de linha de comando**.
 
-No java, aquele array de String do método `main` serve para receber os argumentos de linha de comando
+No java, aquele array de String do método `main` serve para receber os _argumentos de linha de comando_
 que são passados na hora de executar o programa.
+Cada argumento é separado por um "espaço" no momento da execução.
+
 Vamos ver isso na prática com o código abaixo:
 
 ```java
