@@ -13,7 +13,7 @@ Vejamos as formas de criar comentários em Java.
 ```java
 package br.com.dicasdejava.fundamentos;
 
-public class ComentariosEmjava {
+public class ComentariosEmJava {
 
 	public static void main(String[] args) {
 
