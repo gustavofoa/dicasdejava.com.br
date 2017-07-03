@@ -71,6 +71,7 @@ SUMMARY_MAX_LENGTH = 30
 
 SITEMAP = {
     'format': 'xml',
+    'exclude': ['autor/', 'tag/', 'categoria/', 'arquivo/'],
     'priorities': {
         'articles': 0.5,
         'indexes': 0.5,
