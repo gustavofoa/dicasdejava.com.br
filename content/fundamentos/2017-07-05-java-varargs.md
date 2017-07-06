@@ -87,10 +87,10 @@ true
 Não podemos por exemplo, chamar o método do exemplo acima
 passando os seguintes parâmetros.
 
-`
+```java
 //NÃO PODE CHAMAR O MÉTODO ASSIM!
 metodoComVarargs("a3", true, 1, "texto", false, 'c');
-`
+```
 
 ##Deve ser o último parâmetro!
 
@@ -98,10 +98,10 @@ Como já vimos no inicio do post,
 o parâmetro _vararg_ deve ser o último parâmetro do método.
 Não podemos declarar um método como no exemplo a baixo
 
-`
+```java
 //NÃO PODE DECLARAR O MÉTODO ASSIM!
 void metodoComVarargs(String a, boolean... b, int c)
-`
+```
 
 Referências:
 
