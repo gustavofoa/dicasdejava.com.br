@@ -73,4 +73,4 @@ default String metodo() {
 
 Referências:
 
-1. [Doc: Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+1. [Doc: Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){:target=\_blank}

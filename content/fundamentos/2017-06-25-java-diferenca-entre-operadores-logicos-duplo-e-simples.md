@@ -93,5 +93,5 @@ true | false = true - com teste da segunda condição.
 
 Referências:
 
-1. [Boolean Logical Operators &, ^, and |](http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.22.2)
-2. [Conheça os operadores lógicos!](http://dicasdeprogramacao.com.br/operadores-logicos/)
+1. [Boolean Logical Operators &, ^, and |](http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.22.2){:target=\_blank}
+2. [Conheça os operadores lógicos!](http://dicasdeprogramacao.com.br/operadores-logicos/){:target=\_blank}

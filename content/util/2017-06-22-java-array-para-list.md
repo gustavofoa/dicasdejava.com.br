@@ -36,4 +36,4 @@ Saída:
 
 Referências:
 
-1. [JavaDoc: Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+1. [JavaDoc: Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html){:target=\_blank}

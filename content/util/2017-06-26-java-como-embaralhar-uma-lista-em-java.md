@@ -52,4 +52,4 @@ Saída:
 
 Referências:
 
-1. [JavaDoc: Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
+1. [JavaDoc: Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html){:target=\_blank}
