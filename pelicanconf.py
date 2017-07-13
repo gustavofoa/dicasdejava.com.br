@@ -101,18 +101,18 @@ AUTHORS = {
                   'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg',
-        'adsense': {
-          'adClientId' : 'ca-pub-6041601556788047',
-          'adSlot' : {
-            'top_responsible' : '9578335779',
-            'rside_300x600' : '3531802173',
-            'bottom_responsible' : '7962001772'
-          }
-        }
+        'adsense': DEFAULT_ADSENSE
     },
 	'Pedro Henrique Ribeiro Rodrigues': {
 		'summary': 'Desenvolvedor Java desde 2008, fullstack desde 2012, geek e gamer desde sempre',
 		'image': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtTAAAAJDQzNTY1YThkLWYyNGYtNGI0My1hYzE2LTkzNDI5NmQwOGE2ZA.jpg',
-		'adsense': DEFAULT_ADSENSE
+		'adsense': {
+		  'adClientId' : '',
+		  'adSlot' : {
+		    'top_responsible' : '',
+		    'rside_300x600' : '',
+		    'bottom_responsible' : ''
+		  }
+		}
 	}
 }
