@@ -109,5 +109,10 @@ AUTHORS = {
             'bottom_responsible' : '7962001772'
           }
         }
-    }
+    },
+	'Pedro Henrique Ribeiro Rodrigues': {
+		'summary': 'Desenvolvedor Java desde 2008, fullstack desde 2012, geek e gamer desde sempre',
+		'image': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtTAAAAJDQzNTY1YThkLWYyNGYtNGI0My1hYzE2LTkzNDI5NmQwOGE2ZA.jpg',
+		'adsense': DEFAULT_ADSENSE
+	}
 }
