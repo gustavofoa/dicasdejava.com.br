@@ -1,13 +1,6 @@
 
-{% set random_hotmart_1 = range(1, 4)|random %}
-
-
-{% if random_hotmart_1 == 1 %}
-    {% include 'banners/banner-hotmart-10-recursos-avancados-java.html' %}
-{% elif random_hotmart_1 == 2 %}
-    {% include 'banners/banner-hotmart-introducao-programacao-java-escola-linux.html' %}
-{% elif random_hotmart_1 == 3 %}
-    {% include 'banners/banner-hotmart-curso-java-oo.html' %}
-{% elif random_hotmart_1 == 4 %}
-    {% include 'banners/banner-hotmart-jsf-primefaces-hibernate-spring.html' %}
+{% if article and AUTHORS[article.author|string] %}
+{% include AUTHORS[article.author|string].hotmart %}
+{% else %}
+{% include DEFAULT_HOTMART %}
 {% endif %}

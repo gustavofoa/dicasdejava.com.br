@@ -93,6 +93,8 @@ DEFAULT_ADSENSE = {
 	}
 }
 
+DEFAULT_HOTMART = 'banners/gustavo/banner-hotmart.html'
+
 AUTHORS = {
     'Gustavo Furtado de Oliveira Alves': {
         'summary': 'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
@@ -101,18 +103,20 @@ AUTHORS = {
                   'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg',
-        'adsense': DEFAULT_ADSENSE
+        'adsense': DEFAULT_ADSENSE,
+        'hotmart': DEFAULT_HOTMART
     },
 	'Pedro Henrique Ribeiro Rodrigues': {
 		'summary': 'Desenvolvedor Java desde 2008, fullstack desde 2012, geek e gamer desde sempre',
 		'image': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtTAAAAJDQzNTY1YThkLWYyNGYtNGI0My1hYzE2LTkzNDI5NmQwOGE2ZA.jpg',
 		'adsense': {
-		  'adClientId' : '',
-		  'adSlot' : {
-		    'top_responsible' : '',
-		    'rside_300x600' : '',
-		    'bottom_responsible' : ''
-		  }
-		}
+            'adClientId' : '',
+            'adSlot' : {
+                'top_responsible' : '',
+                'rside_300x600' : '',
+                'bottom_responsible' : ''
+            }
+		},
+        'hotmart': 'banners/pedro/banner-hotmart.html'
 	}
 }
