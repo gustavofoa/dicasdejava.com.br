@@ -121,4 +121,4 @@ public class ClasseComJavadoc {
 
 Referências:
 
-1. [How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+1. [How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/articles/java/index-137868.html){:target=\_blank}

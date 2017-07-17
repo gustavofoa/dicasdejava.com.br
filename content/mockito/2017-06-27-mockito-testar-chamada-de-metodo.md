@@ -83,3 +83,7 @@ e ainda verifica a quantidade de vezes que ele foi testado.
 
 Se, por exemplo, quisermos verificar se o método foi acessado 5 vezes
 bataria informar 5 no segundo parâmetro do método estático _verify_ da classe _Mockito_.
+
+##Referencias
+
+1. [Javadoc: Mockito](http://static.javadoc.io/org.mockito/mockito-core/2.8.47/org/mockito/Mockito.html#4){:target=\_blank}

@@ -105,4 +105,4 @@ void metodoComVarargs(String a, boolean... b, int c)
 
 Referências:
 
-1. [JavaDoc: Varargs](https://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html)
+1. [JavaDoc: Varargs](https://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html){:target=\_blank}

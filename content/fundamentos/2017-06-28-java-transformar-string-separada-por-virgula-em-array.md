@@ -47,4 +47,4 @@ Ana
 
 Referências:
 
-1. [JavaDoc: String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+1. [JavaDoc: String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html){:target=\_blank}

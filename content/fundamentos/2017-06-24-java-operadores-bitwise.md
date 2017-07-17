@@ -173,6 +173,6 @@ Vejamos como o Java executa as operações **OU**, **E** e **OU-EXCLUSIVO** entr
 
 Referências:
 
-1. [Bitwise and Bit Shift Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html)
-2. [As 10 conversões numéricas mais utilizadas na computação](http://dicasdeprogramacao.com.br/as-10-conversoes-numericas-mais-utilizadas-na-computacao/)
-3. [Conheça os operadores lógicos!](http://dicasdeprogramacao.com.br/operadores-logicos/)
+1. [Bitwise and Bit Shift Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html){:target=\_blank}
+2. [As 10 conversões numéricas mais utilizadas na computação](http://dicasdeprogramacao.com.br/as-10-conversoes-numericas-mais-utilizadas-na-computacao/){:target=\_blank}
+3. [Conheça os operadores lógicos!](http://dicasdeprogramacao.com.br/operadores-logicos/){:target=\_blank}
