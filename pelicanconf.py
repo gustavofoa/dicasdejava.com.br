@@ -14,6 +14,7 @@ TIMEZONE = 'America/Sao_Paulo'
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
 # Default theme language.
+TIMEZONE = 'America/Sao_Paulo'
 I18N_TEMPLATES_LANG = 'pt_BR'
 # Your language.
 DEFAULT_LANG = 'pt_BR'
