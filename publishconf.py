@@ -17,8 +17,6 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Theme
-THEME = 'theme'
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['sitemap', 'minify']
