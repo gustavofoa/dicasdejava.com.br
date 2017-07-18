@@ -37,8 +37,8 @@ EXTRA_PATH_METADATA = {
 }
 
 # Plugins
-PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap']
+# PLUGIN_PATHS = ['./pelican-plugins']
+# PLUGINS = []
 
 # Theme
 THEME = 'theme'
@@ -69,21 +69,6 @@ PAGINATION_PATTERNS = (
 DEFAULT_PAGINATION = 20
 SUMMARY_MAX_LENGTH = 30
 
-SITEMAP = {
-    'format': 'xml',
-    'exclude': ['autor/', 'tag/', 'categoria/', 'arquivo/'],
-    'priorities': {
-        'articles': 0.5,
-        'indexes': 0.5,
-        'pages': 0.5
-    },
-    'changefreqs': {
-        'articles': 'monthly',
-        'indexes': 'daily',
-        'pages': 'monthly'
-    }
-}
-
 DEFAULT_ADSENSE = {
 	'adClientId' : 'ca-pub-6041601556788047',
 	'adSlot' : {
@@ -102,7 +87,7 @@ AUTHORS = {
                   'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
                   'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
-        'image': '/images/author-gustavo.jpeg',
+        'image': 'http://dicasdejava.com.br/images/author-gustavo.jpeg',
         'adsense': DEFAULT_ADSENSE,
         'hotmart': DEFAULT_HOTMART
     },
