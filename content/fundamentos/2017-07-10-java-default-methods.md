@@ -12,6 +12,10 @@ Ou seja, não poderíamos implementar um método em uma classe.
 Mas isso mudou e a partir do **Java 8** nós podemos ter implementação "padrão" de um método
 na interface Java! Para isso, basta utilizarmos a palavra-chave `default` na declaração do método.
 
+É importante observar que os métodos _default_ não foram criados com o objetivo de permitir herança multipla,
+e sim de permitir a evolução de interfaces sem quebrar códigos existentes.
+Essa recurso do **Java 8** é o que possibilitou o _Lambda_!
+
 Vejamos um exemplo da implementação padrão de um método em uma interface.
 
 ```java
