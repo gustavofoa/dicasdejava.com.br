@@ -1,11 +1,64 @@
 {% if DEFAULT_PAGINATION %}
-<p class="paginator">
-    {% if articles_page.has_previous() %}
-        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo;</a>
-    {% endif %}
-    Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
-    {% if articles_page.has_next() %}
-        <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&raquo;</a>
-    {% endif %}
-</p>
+
+{% set startpage = articles_page.number - 2 %}
+{% if startpage > articles_paginator.num_pages-6 %}
+{% set startpage = articles_paginator.num_pages-6 %}
 {% endif %}
+{% if startpage < 1 %}
+{% set startpage = 1 %}
+{% endif %}
+
+{% set endpage = articles_page.number + 3 %}
+{% if endpage < 6 %}
+{% set endpage = 6 %}
+{% endif %}
+{% if endpage > articles_paginator.num_pages %}
+{% set endpage = articles_paginator.num_pages+1 %}
+{% endif %}
+
+
+
+<!-- PAGINATAION -->
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="pagination pagination-lg">
+            {% if articles_page.has_previous() %}
+            <li>
+                <a href="{{ SITEURL }}/{{ articles_paginator.page(1).url }}">&lt;&lt;</a>
+            </li>
+            <li>
+                <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&lt;</a>
+            </li>
+            {% else %}
+            <li class="disabled">
+                <a href="#" style="pointer-events: none;">&lt;&lt;</a>
+            </li>
+            <li class="disabled">
+                <a href="#" style="pointer-events: none;">&lt;</a>
+            </li>
+            {% endif %}
+            {% for num in range( startpage, endpage ) %}
+            <li class="{{ 'active' if num == articles_page.number else '' }}">
+                <a href="{{ SITEURL }}/{{ articles_paginator.page(num).url if num > 1 else articles_paginator.page(1).url }}">{{ num }}</a>
+            </li>
+            {% endfor %}
+            {% if articles_page.has_next() %}
+            <li>
+                <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&gt;</a>
+            </li>
+            <li>
+                <a href="{{ SITEURL }}/{{ articles_paginator.page(articles_paginator.num_pages).url }}">&gt;&gt;</a>
+            </li>
+            {% else %}
+            <li class="disabled">
+                <a href="#" style="pointer-events: none;">&gt;</a>
+            </li>
+            <li class="disabled">
+                <a href="#" style="pointer-events: none;">&gt;&gt;</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+

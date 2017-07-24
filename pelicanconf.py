@@ -67,7 +67,7 @@ PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 30
 
 DEFAULT_ADSENSE = {
