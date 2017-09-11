@@ -31,10 +31,11 @@ AUTHOR_FEED_RSS = None
 
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['extra/CNAME', 'images']
+STATIC_PATHS = ['extra/CNAME', 'images', 'extra/custom.css']
 
 EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'}
+    'extra/CNAME': {'path': 'CNAME'},
+	'extra/custom.css': {'path': 'custom.css'}
 }
 
 # Plugins

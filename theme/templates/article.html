@@ -12,8 +12,9 @@
     <meta property="og:title" content="{{ article.title }}">
     <meta property="og:image" content="{{ SITEURL }}{{ article.image }}">
     <meta property="og:image:type" content="image/png">
-<meta property="og:description" content="{{ article.summary | replace ('"',"'") | striptags }}">
+    <meta property="og:description" content="{{ article.summary | replace ('"',"'") | striptags }}">
     <meta property="description" content="{{ article.summary | replace ('"',"'") | striptags }}">
+    <link rel="stylesheet" href="/custom.css">
 {% endblock %}
 
 {% block content %}
