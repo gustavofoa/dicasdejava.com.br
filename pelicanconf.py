@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['extra/CNAME', 'images', 'extra/custom.css']
+STATIC_PATHS = ['pages/extra/CNAME', 'images', 'pages/extra/custom.css']
 
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
