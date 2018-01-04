@@ -34,8 +34,8 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['pages/extra/CNAME', 'images', 'pages/extra/custom.css']
 
 EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
-	'extra/custom.css': {'path': 'custom.css'}
+    'pages/extra/CNAME': {'path': 'CNAME'},
+	'pages/extra/custom.css': {'path': 'custom.css'}
 }
 
 # Plugins
