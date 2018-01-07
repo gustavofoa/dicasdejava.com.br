@@ -48,10 +48,10 @@
     {{ article.content }}
   </div><!-- /.entry-content -->
 
+  {% include 'banners/banner-adsense-bottom.html' %}
+
     {% set author = article.author %}
     {% include 'author-info.html' %}
-
-    {% include 'banners/banner-adsense-bottom.html' %}
 
     {% include 'comments.html' %}
 

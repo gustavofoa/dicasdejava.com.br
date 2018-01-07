@@ -20,7 +20,7 @@ gulp.task('connect', connect.server({
   port: 1337,
   livereload: true,
   open: {
-    browser: 'chrome' // if not working OS X browser: 'Google Chrome'
+    browser: 'google-chrome' // if not working OS X browser: 'Google Chrome'
   }
 }));
 
