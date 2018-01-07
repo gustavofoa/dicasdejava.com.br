@@ -74,7 +74,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "d
 ```
 
 Por isso, é sempre importante tratar esta exceção quando estiver convertendo
-um String para int.
+String para int.
 
 Assim:
 
