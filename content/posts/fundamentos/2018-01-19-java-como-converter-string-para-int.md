@@ -1,5 +1,5 @@
 title: Java: Como converter String para int
-date: 2018-01-17
+date: 2018-01-19
 author: Gustavo Furtado de Oliveira Alves
 category: Fundamentos
 tags: Java, String, int, conversão
