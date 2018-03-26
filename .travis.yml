@@ -18,11 +18,15 @@ install:
 script:
   - make publish
 deploy:
-  provider: pages
-  repo: gustavofoa/dicasdejava.com.br
-  target_branch: gh-pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: output
-  on:
-    branch: master
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: dicasdejava.com.br
+    region: sa-east-1
+    skip_cleanup: true
+    local-dir: output
+    acl: public_read
+    detect_encoding: true
+notifications:
+    email:
+        on_failure: always
