@@ -13,6 +13,7 @@ footer {
 
 .article-thumbnail {
 	float: left;
+	padding: 10px;
 }
 
 .item-list:after {
