@@ -12,8 +12,8 @@ basta digitar ```sout``` e pressionar TAB ou ENTER.
 
 Com esse atalho o Intellij IDEA gera um ```System.out.println``` automaticamente.
 
-![Resultado do Atalho sout no IntelliJ](/images/sout-resultado.png)
+![Resultado do Atalho sout no IntelliJ](/images/sout.gif)
 
 ##Referencias
 
-1. [Intellij IDEA keymap reference](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf){:target=\_blank}
+1. [Intellij IDEA Help: code completion](https://www.jetbrains.com/help/idea/auto-completing-code.html){:target=\_blank}
