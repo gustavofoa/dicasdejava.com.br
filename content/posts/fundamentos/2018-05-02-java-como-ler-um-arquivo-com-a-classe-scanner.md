@@ -9,6 +9,9 @@ Muitas pessoas têm dúvidas de como ler os dados de um arquivo em java.
 Neste post aprensento uma das formas mais simples de fazer isso:
 Utilizando a classe ```java.util.Scanner```
 
+Um dos construtores da classe **Scanner** recebe um arquivo como parâmetro.
+Criando o objeto Scanner com este construtor, ele vai utilizar o arquivo como entrada de dados.
+
 Confira o exemplo abaixo.
 
 ```java
