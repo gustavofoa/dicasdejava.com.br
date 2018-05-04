@@ -1,7 +1,7 @@
 title: Junit: Como definir a ordem de execução dos testes!
 date: 2017-07-12
 author: Gustavo Furtado de Oliveira Alves
-category: Junit
+category: Frameworks
 tags: Junit
 image: /images/logo-junit.png
 

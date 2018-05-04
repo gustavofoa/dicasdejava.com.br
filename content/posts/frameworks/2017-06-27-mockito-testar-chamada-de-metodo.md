@@ -1,7 +1,7 @@
 title: Mockito: Como testar chamada de método
 date: 2017-06-27
 author: Gustavo Furtado de Oliveira Alves
-category: Mockito
+category: Frameworks
 tags: Mockito
 image: /images/logo-mockito.png
 
