@@ -1,6 +1,6 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- DJ-Bottom -->
-<ins class="adsbygoogle"
+<ins class="adsbygoogle adsense-banner-bottom"
      style="display:block"
      data-ad-client="{% if article and AUTHORS[article.author|string] and AUTHORS[article.author|string].adsense.adClientId != '' %}{{ AUTHORS[article.author|string].adsense.adClientId }}{% else %}{{DEFAULT_ADSENSE['adClientId']}}{% endif %}"
      data-ad-slot="{% if article and AUTHORS[article.author|string] and AUTHORS[article.author|string].adsense.adSlot.bottom_responsible != '' %}{{ AUTHORS[article.author|string].adsense.adSlot.bottom_responsible }}{% else %}{{DEFAULT_ADSENSE['adSlot'].bottom_responsible}}{% endif %}"
