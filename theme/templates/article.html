@@ -27,14 +27,6 @@
  {{ translations.translations_for(article) }}
   </header>
   <div class="post-info">
-    <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
-    </time>
-	{% if article.modified %}
-    <time class="modified" datetime="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
-    </time>
-	{% endif %}
     {% if article.authors %}
     <address class="vcard author">
       Por {% for author in article.authors %}
