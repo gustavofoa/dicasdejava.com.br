@@ -89,12 +89,12 @@ AUTHORS = {
                   'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
                   'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
-        'image': 'http://dicasdejava.com.br/images/author-gustavo.jpeg',
+        'image': 'https://dicasdejava.com.br/images/author-gustavo.jpeg',
         'adsense': DEFAULT_ADSENSE,
         'hotmart': DEFAULT_HOTMART
     },
 	'Pedro Henrique Ribeiro Rodrigues': {
-		'summary': 'Desenvolvedor Java desde 2008, fullstack desde 2012, geek e gamer desde sempre',
+		'summary': 'Desenvolvedor Java desde 2008, fullstack desde 2012, geek e gamer desde sempre.',
 		'image': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtTAAAAJDQzNTY1YThkLWYyNGYtNGI0My1hYzE2LTkzNDI5NmQwOGE2ZA.jpg',
 		'adsense': {
 			'adClientId' : 'ca-pub-3499823579380102',
