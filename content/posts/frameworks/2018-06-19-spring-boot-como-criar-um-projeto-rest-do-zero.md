@@ -40,7 +40,7 @@ Abra o prompt de comando e acesse a pasta descompactada. (`cd <caminho da pasta>
 ### 4. Baixe as dependências do projeto
 
 Execute o comando `mvn clean install` para baixar as dependências do projeto através do maven.
-Você também pode utilizar o mvnw que vem no arquivo ZIP do mesmo jeito `mvnw clean install`.
+Você também pode utilizar o `_mvnw_ que vem no arquivo ZIP do mesmo jeito `mvnw clean install`.
 
 ![mvn clean install](/images/spring-boot-swagger/mvn-clean-install.gif){:width=100%}
 
@@ -70,18 +70,16 @@ public class SampleController {
 
 A classe acima utiliza a anotação `@RestController` para informar o Spring-boot que ela é um controller rest e ainda diz qual o endereço do endpoint.
 
-Além disso ela tem um método com a anotação `@GetMapping` que diz qual método deve ser chamado quando o controller receber uma requisição HTTP GET em seu endereço padrão `endpoint`. O método retorna uma responsta HTTP com Status 200 e o corpo da resposta com o valor `OK`.
+Além disso ela tem um método com a anotação `@GetMapping` que diz qual método deve ser chamado quando o controller receber uma requisição HTTP GET em seu endereço padrão `endpoint`. O método retorna uma resposta HTTP com Status 200 (OK) e o corpo da resposta com o valor "OK".
 
 ### 6. Execute aplicação
 
 Execute o comando `mvn spring-boot:run` para executar a sua aplicação.
-Você também pode utilizar o mvnw que vem no arquivo ZIP do mesmo jeito `mvnw spring-boot:run`.
-
-Após a execução do comando você verá a seguind mensagem no prompt de comando
+Você também pode utilizar o _mvnw_ que vem no arquivo ZIP do mesmo jeito `mvnw spring-boot:run`.
 
 ![mvn spring-boot:run ](/images/spring-boot-swagger/mvn-spring-boot-run.gif){:width=100%}
 
-Isso significa que a sua aplicação web já está rodando na porta 8080.
+A mensagem que aparece no final **"Tomcat started on port(s): 8080 (http)"** significa que a sua aplicação web já está rodando na porta 8080.
 
 ### 7. Acesse o endpoint
 
