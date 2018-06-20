@@ -43,8 +43,8 @@ DISQUS_SITENAME = "dicas-de-java"
 GOOGLE_ANALYTICS = "UA-39997045-4"
 
 
-#MINIFY = {
-#  'remove_comments': True,
-#  'remove_all_empty_space': True,
-#  'remove_optional_attribute_quotes': False
-#}
+MINIFY = {
+ 'remove_comments': True,
+ 'remove_all_empty_space': True,
+ 'remove_optional_attribute_quotes': False
+}
