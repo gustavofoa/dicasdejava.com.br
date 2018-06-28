@@ -2,7 +2,7 @@ title: Java 8: Como formatar LocalDate e LocalDateTime
 date: 2018-01-10
 author: Gustavo Furtado de Oliveira Alves
 category: Fundamentos
-tags: Java 8, Formatação, java.time
+tags: Java 8, Formatação, Date
 image: /images/logo-java.png
 
 Quando vamos imprimir uma data geralmente queremos que ela seja impressa em um formato específico.
