@@ -39,8 +39,8 @@ EXTRA_PATH_METADATA = {
 }
 
 # Plugins
-# PLUGIN_PATHS = ['./pelican-plugins']
-# PLUGINS = []
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap']
 
 # Theme
 THEME = 'theme'
