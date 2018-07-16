@@ -14,17 +14,17 @@ Basta preencher o formulário abaixo pedindo a sua **Dica de Java**.
   <div class="form-row">
     <div class="form-group col-md-6">
         <label for="name">Nome</label>
-        <input type="text" class="form-control" id="name" placeholder="Ex: José">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Ex: José">
     </div>
     <div class="form-group col-md-6">
         <label for="email">Seu E-mail</label>
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ex: jose@dicasdejava.com.br">
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Ex: jose@dicasdejava.com.br">
         <small id="emailHelp" class="form-text text-muted">Não vamos compartilhar o seu email com ninguém!</small>
     </div>
   </div>
   <div class="form-group">
     <label for="texto">Descreva a sua dúvida</label>
-    <textarea class="form-control" id="texto" rows="6" placeholder="Quero aprender a fazer ... em Java."></textarea>
+    <textarea class="form-control" id="texto" name="message" rows="6" placeholder="Quero aprender a fazer ... em Java."></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
