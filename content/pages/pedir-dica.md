@@ -8,7 +8,8 @@ implementar soluções para problemas comuns do dia-a-dia do programador.
 Mas pode ser que você não encontre a solução para um problema que você está tendo neste momento.
 
 Se quiser saber como fazer alguma coisa em java e você não encontrou no site.
-Basta preencher o formulário abaixo pedindo a sua **Dica de Java**.
+Preencha o formulário abaixo pedindo a sua **Dica de Java**,
+que assim que possível nós escreveremos um post.
 
 <form action="https://formspree.io/gustavo@dicasdeprogramacao.com.br" method="POST">
   <div class="form-row">
