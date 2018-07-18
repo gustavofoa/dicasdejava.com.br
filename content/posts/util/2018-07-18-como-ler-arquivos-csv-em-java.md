@@ -41,7 +41,7 @@ Uma forma simples de ler um CSV é como uma lista de arrays de String, ou seja: 
 Veja no código abaixo como fazer isso com o **OpenCSV**.
 
 ```java
-package br.com.dicasdejava.util;
+package br.com.dicasdejava.util.csv;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
@@ -89,7 +89,7 @@ Para isto, vamos criar a classe CsvPessoa com os atributos contidos no CSV.
 É importante que os nomes dos atributos sejam iguais as colunas do CSV.
 
 ```java
-package br.com.dicasdejava.model;
+package br.com.dicasdejava.csv;
 
 public class CsvPessoa {
     private String nome;
@@ -107,7 +107,7 @@ public class CsvPessoa {
 Agora vamos ler o CSV e obter uma lista de pessoas, ou seja: `List<Pessoa>`
 
 ```java
-package br.com.dicasdejava.util;
+package br.com.dicasdejava.csv;
 
 import br.com.dicasdejava.model.CsvPessoa;
 import com.opencsv.bean.CsvToBean;
@@ -151,4 +151,4 @@ CsvPessoa{nome='Ana', idade=25, email='ana@dicasdejava.com.br'}
 ## Referências:
 
 1. [OpenCSV](http://opencsv.sourceforge.net/){:target=\_blank}
-2. [Códigos-fonte deste post](https://github.com/gustavofoa/examples.dicasdejava.com.br){:target=\_blank}
+2. [Códigos-fonte deste post](https://github.com/gustavofoa/examples.dicasdejava.com.br/tree/master/src/main/java/br/com/dicasdejava/util/csv){:target=\_blank}
