@@ -9,6 +9,8 @@ Existem várias formas de ler arquivos CSV em Java. A forma mais "raiz" é lendo
 
 Neste post vamos ver como ler arquivos CSV em java com a biblioteca open-source **OpenCSV**.
 
+[>> Como escrever arquivos CSV em java](https://dicasdejava.com.br/como-escrever-arquivos-csv-em-java/)
+
 ##CSV de exemplo
 
 Para os exemplos destes post, vamos usar um CSV simples.
@@ -22,10 +24,10 @@ Maria,23,maria@dicasdeprogramacao.com.br
 Ana,25,ana@dicasdejava.com.br
 ```
 
-## Lendo arquivos CSV com OpenCSV
+## OpenCSV como dependência (maven)
 
 Para utilizar o **OpenCSV** você precisa importá-lo como dependência no seu projeto.
-Se você estiver utilizando o _Maven_, basta adicionar a seguinte dependência.
+Se você estiver utilizando o _Maven_, basta adicionar a seguinte dependência no seu arquivo `pom.xml`.
 
 ```xml
 <dependency>
