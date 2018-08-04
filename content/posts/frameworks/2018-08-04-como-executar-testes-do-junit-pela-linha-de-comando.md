@@ -1,4 +1,4 @@
-title: Como executar testes do junit pela linha de comandos
+title: Como executar testes do jUnit pela linha de comando
 date: 2018-08-04
 author: Gustavo Furtado de Oliveira Alves
 category: Frameworks
