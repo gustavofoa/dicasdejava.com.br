@@ -40,7 +40,7 @@ EXTRA_PATH_METADATA = {
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-#PLUGINS = []
+PLUGINS = ['tag_cloud']
 
 # Theme
 THEME = 'theme'

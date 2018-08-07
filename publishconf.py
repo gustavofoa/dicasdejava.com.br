@@ -20,7 +20,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'minify']
+PLUGINS = ['sitemap', 'minify', 'tag_cloud']
 
 SITEMAP = {
     'format': 'xml',
