@@ -3,12 +3,37 @@
 
 <br />
 
-{% include 'banners/banner-hotmart.html' %}
+
+  <!--Recent posts-->
+  <aside>
+      <h3>Artigos Recentes</h3>
+    {% set recent = articles if not all_articles else all_articles %}
+    {% for a in recent %}
+      {% if loop.index <= 6 %}
+		    <artitle class="item-list">
+                <div class="article-thumbnail">
+                    <a href="{{ a.url }}">
+                        <img width="60" height="60" src="{{ a.image }}" alt="a.category" />
+                    </a>
+                </div>
+    			<h4 class="entry-title">
+                    <a href="{{ SITEURL }}/{{ a.url }}" rel="bookmark" title="{{ a.title|striptags }}">
+                        {{ a.title }}
+                    </a>
+                </h4>
+                <time class="published" datetime="{{ a.date.isoformat() }}"> {{ a.locale_date }} </time>
+                <address class="vcard author">Por
+                    {% for author in a.authors %}
+                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                    {% endfor %}
+                </address>
+                <hr />
+            </artitle>
+      {% endif %}
+    {% endfor %}
+  </aside>
+
 
 <br />
 
 {% include 'banners/banner-adsense-dir.html' %}
-
-<br />
-
-{% include 'banners/banner-hotmart.html' %}
