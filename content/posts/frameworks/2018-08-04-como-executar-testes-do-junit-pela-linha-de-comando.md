@@ -51,7 +51,7 @@ public class ClasseDeTeste {
 Para utilizar as classes do jUnit, nós precisamos colocar os jars do junit no classpath.
 Neste exemplo vamos colocar os jars do jUnit na própria pasta onde estão os nossos arquivos `.java`. Você pode baixar os arquivos .jar do jUnit [aqui](https://github.com/junit-team/junit4/wiki/Download-and-Install){:target=\_blank}.
 
-[![Download dos jars do Junit](/images/junit-download-jars.png){:width=100%}]((https://github.com/junit-team/junit4/wiki/Download-and-Install)){:target=\_blank}
+[![Download dos jars do Junit](/images/junit-download-jars.png){:width=100%}](https://github.com/junit-team/junit4/wiki/Download-and-Install){:target=\_blank}
 
 Agora temos os seguintes arquivos na nossa pasta.
 
