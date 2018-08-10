@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/gustavofoa/dicasdejava.com.br#readme",
   "dependencies": {
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-connect-multi": "^1.0.8",
-    "gulp-shell": "^0.5.2",
-    "gulp-watch": "^4.3.11"
+    "gulp-shell": "^0.6.5",
+    "gulp-watch": "^5.0.1"
   }
 }
