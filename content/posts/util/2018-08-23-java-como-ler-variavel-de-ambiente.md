@@ -34,7 +34,7 @@ Você pode consultar o valor de qualquer variável de ambiente do seu sistema op
 
 ## Exemplo de execução
 
-![Como ler variável de ambiente com Java](/images/ler-variavel-de-ambiente.gif)
+![Como ler variável de ambiente com Java](/images/ler-variavel-de-ambiente.gif){:width=100%}
 
 ## Referência
 
