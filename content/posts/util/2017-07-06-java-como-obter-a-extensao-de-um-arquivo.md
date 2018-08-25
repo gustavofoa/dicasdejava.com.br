@@ -58,7 +58,7 @@ Você pode baixar o **jar** da _Apache Commons IO_ diretamente no
 
 Se você estiver utilizando o maven no seu projeto,
 basta adicionar a dependência do _Apache Commons IO_ no seu arquivo `pom.xml`.
- 
+
 ```xml
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -129,7 +129,7 @@ docx
 jpg
 ```
 
-##Referências:
+## Referências:
 
 1. [Javadoc: FilenameUtils](https://commons.apache.org/proper/commons-io/javadocs/api-release/index.html?org/apache/commons/io/package-summary.html){:target=\_blank}
 2. [Maven: Apache Commons IO](https://mvnrepository.com/artifact/org.apache.commons/commons-io){:target=\_blank}

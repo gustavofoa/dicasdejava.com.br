@@ -34,6 +34,6 @@ Saída:
 [Gustavo, Maria, José, João, Ana]
 ```
 
-Referências:
+## Referências:
 
 1. [JavaDoc: Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html){:target=\_blank}

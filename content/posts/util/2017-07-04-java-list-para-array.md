@@ -40,6 +40,6 @@ Saída:
 [Gustavo, Maria, José, João, Ana]
 ```
 
-Referências:
+## Referências:
 
 1. [JavaDoc: List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html){:target=\_blank}
