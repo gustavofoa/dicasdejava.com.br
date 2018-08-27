@@ -9,11 +9,47 @@ Logo de cara você já deve estar pensando: para de falar besteira cara! Não d�
 
 Pois bem, se você sempre achou que era impossível instanciar uma classe abstrata, ou até mesmo uma interface, você está enganado.
 
-É possível sim, instanciar uma classe abstrata ou uma interface! O único requisito pra isso é, adivinha ... implementar todos os métodos abstratos. E você pode fazer isso sem declarar uma nova classe explicitamente.
+**É possível sim, instanciar uma classe abstrata ou uma interface!**
+
+O único requisito pra isso é, adivinha ... implementar todos os métodos abstratos. E você pode fazer isso sem declarar uma nova classe explicitamente.
 O que você precisa é de uma **classe anônima**!
 
+## Classe anônima
+
+Casse anônima é uma classe que não é declarada explicitamente no código.
+
+Elas possibilitam a você declarar e instanciar uma classe ao mesmo tempo.
+Você não precisa nem mesmo dar um nome para a classe que você está criando.
+
+Veja no código abaixo.
+
+```java
+
+abstract class ClasseAbstrata {
+    public abstract void metodoAbstrato();
+}
+
+public class Principal {
+    public static void main(String args[]){
+
+        ClasseAbstrata objeto = new ClasseAbstrata(){
+            public void metodoAbstrato(){
+                System.out.println("Olá mundo!");
+            }
+        };
+
+        objeto.metodoAbstrato();
+
+    }
+}
+
+```
+
+Veja abaixo um exemplo de excução deste código:
+
+![Como instanciar uma classe abstrata como classe anônima](/images/instanciar-classe-abstrata.gif){:width=100%}
 
 
 ## Referências
 
-1. [](){:target=\_blank}
+1. [Doc: Anonymous classes](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html){:target=\_blank}
