@@ -9,6 +9,11 @@ Logo de cara você já deve estar pensando: para de falar besteira cara! Não d�
 
 Pois bem, se você sempre achou que era impossível instanciar uma classe abstrata, ou até mesmo uma interface, você está enganado.
 
+É possível sim, instanciar uma classe abstrata ou uma interface! O único requisito pra isso é, adivinha ... implementar todos os métodos abstratos. E você pode fazer isso sem declarar uma nova classe explicitamente.
+O que você precisa é de uma **classe anônima**!
+
+
+
 ## Referências
 
 1. [](){:target=\_blank}
