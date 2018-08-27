@@ -6,7 +6,7 @@ tags: System
 image: /images/logo-java.png
 
 Ler uma variável de ambiente é muito simples com Java.
-Basta chamar o método `System.getenv(String)` informando o nome da variável de ambiente como parãmetro.
+Basta chamar o método `System.getenv(String)` informando o nome da variável de ambiente como parâmetro.
 
 Veja o código abaixo:
 
