@@ -9,7 +9,7 @@ public class Principal {
             public void metodoAbstrato(){
                 System.out.println("Olá mundo!");
             }
-        }
+        };
 
         objeto.metodoAbstrato();
 
