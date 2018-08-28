@@ -41,15 +41,15 @@ Veja um exemplo da página de download do maven.
 
 Após fazer o download do arquivo compactado, você deve descompactá-lo em uma pasta de sua preferência.
 
-Mas é importante você saber que esta pasta será a pasta onde o maven estará "instaldo".
+Mas é importante você saber que esta pasta será a pasta onde o maven estará "instalado".
 
 Eu vou descompactar o maven em `C:\maven`. Ao final da descompactação a pasta do maven estará assim:
 
 ![Pasta do maven localmente](/images/maven/pasta-do-maven.png){:width=100%}
 
-Pode ser que quando você descompactou o arquivo zip a pasta `C:\maven` tenha ficado só uma pasta com os arquivo do maven dentro, algo como `C:\maven\apache-maven-3.5.4`.
+Pode ser que quando você descompactou o arquivo zip a pasta `C:\maven` tenha ficado só com uma pasta com os arquivo do maven dentro, algo como `C:\maven\apache-maven-3.5.4`.
 
-Não tem problema, basta se lembrar disso quando for configurar a variável de ambiente. Ou você pode copiar os arquivos de dentro desta pasta e subir um nível, colocando em `C:\maven`. Você escolhe ...
+Não tem problema, basta se lembrar disso quando for configurar a variável de ambiente. Ou você pode mover os arquivos de dentro desta pasta e subir um nível, colocando-os em `C:\maven`. Você escolhe ...
 
 ## Quarto passo - Configurando as variáveis de ambiente
 
@@ -67,11 +67,11 @@ Se você nunca configurou uma variável de ambiente no Windows basta seguir esse
 
 ![Configurações avançadas do sistema](/images/maven/configuracoes-avancadas-do-sistema.png){:width=100%}
 
-### 3. Clique no botão **Variáveis de ambiente**.
+### 3. Clique no botão **Variáveis de ambiente** dentro da aba **Avançado**.
 
 ![Configurações avançadas do sistema](/images/maven/botao-variaveis-de-ambiente.png){:width=100%}
 
-### 4. Selecione a variável de ambiente **PATH** e clique em **Editar**.
+### 4. Selecione a variável de ambiente **PATH** na lista e clique em **Editar**.
 
 ![Editar variável de ambiente PATH](/images/maven/edicao-variavel-de-ambiente-PATH.png){:width=100%}
 
@@ -79,7 +79,7 @@ Se você nunca configurou uma variável de ambiente no Windows basta seguir esse
 
 ![Adicionando a pasta bin do maven na variável de ambiente PATH](/images/maven/adiciona-maven-bin-no-PATH.png){:width=100%}
 
-### 6. Verificar se existe a variável de ambiente **JAVA_HOME**.
+### 6. Verifique se existe a variável de ambiente **JAVA_HOME**.
 
 Lembra que falei da variável de ambiente **JAVA_HOME**?
 Precisamos saber se ela já existe no seu sistema ou se precisamos criar.
@@ -104,7 +104,9 @@ Se o resultado do seu comando foi como a imagem abaixo, significa que você não
 
 ![mvn comando não encontrado](/images/maven/mvn-comando-nao-encontrado.png){:width=100%}
 
-Neste caso, volte para o início deste **Quarto passo - Configurando as variáveis de ambiente**.
+Neste caso, volte para o início deste **Quarto passo - Configurando as variáveis de ambiente**
+e certifique-se que o caminho da pasta `bin` do maven esteja na variável de ambiente `PATH`.
+Após essa correção, **feche e abra novamente o prompt de comando**.
 
 ## Referencias
 
