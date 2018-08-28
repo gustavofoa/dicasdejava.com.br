@@ -100,8 +100,11 @@ A saída deve ser algo assim:
 
 ![Resultado do comando mvn](/images/maven/saida-do-comando-mvn.png){:width=100%}
 
+Se o resultado do seu comando foi como a imagem abaixo, significa que você não configurou a variável de ambiente `PATH` com o caminho válido para a pasta `bin` do maven.
 
+![mvn comando não encontrado](/images/maven/mvn-comando-nao-encontrado.png){:width=100%}
 
+Neste caso, volte para o início deste **Quarto passo - Configurando as variáveis de ambiente**.
 
 ## Referencias
 
