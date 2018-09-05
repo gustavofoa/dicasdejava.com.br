@@ -52,7 +52,7 @@ footer {
 
 .archive-author-info .author-avatar{
 	float:left;
-	width: 80px;
+	width: 70px;
 }
 
 .archive-author-info .avatar{
@@ -89,3 +89,8 @@ footer {
  	text-align: justify;
  	font-size: 16px;
  }
+ 
+.fix-bannner {
+    position: fixed;
+    top: 80px;
+}

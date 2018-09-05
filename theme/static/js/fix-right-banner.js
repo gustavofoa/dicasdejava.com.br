@@ -1,16 +1,20 @@
-var share_post_params = {"effect":"1","opacity":"0","top_distance":"180","opacity_intensity":"0.7"};
+var adsense_position = 0;
 
 window.onscroll = function scrollFunction() {
-	console.log(screen.width);
-    var scrollPos = document.body.scrollTop;
 
-    var scroll_distance = 80;
+    //last adsense banner
+    var last_adsense_banner = document.getElementById("sidebar-banner");
 
-    if (scrollPos > share_post_params.top_distance - scroll_distance) {
-        document.getElementById("right-banner").style.position = "fixed";
-        document.getElementById("right-banner").style.top = scroll_distance+"px";
-    } else {
-        document.getElementById("right-banner").style.position = "absolute";
-        document.getElementById("right-banner").style.top = "0px";
+    console.log(window.pageYOffset, last_adsense_banner.offsetTop, adsense_position)
+
+    if (window.pageYOffset-100 > last_adsense_banner.offsetTop) {
+        if(adsense_position == 0)
+            adsense_position = last_adsense_banner.offsetTop;
+        last_adsense_banner.classList.add("fix-bannner");
     }
+    if (window.pageYOffset-100 < adsense_position) {
+        adsense_position = 0;
+        last_adsense_banner.classList.remove("fix-bannner");
+    }
+
 }
