@@ -5,7 +5,7 @@ window.onscroll = function scrollFunction() {
     //last adsense banner
     var last_adsense_banner = document.getElementById("sidebar-banner");
 
-    console.log(window.pageYOffset, last_adsense_banner.offsetTop, adsense_position)
+    // console.log(window.pageYOffset, last_adsense_banner.offsetTop, adsense_position)
 
     if (window.pageYOffset-100 > last_adsense_banner.offsetTop) {
         if(adsense_position == 0)
