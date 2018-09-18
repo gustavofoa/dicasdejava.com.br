@@ -2,7 +2,7 @@ title: Intellij IDEA: Configuração para organizar imports de classe automatica
 date: 2018-08-25
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
-tags: atalhos, intellij idea
+tags: atalhos, Intellij IDEA
 image: /images/logo-intellij.png
 
 Uma das primeiras dúvidas de quem migra do eclipse para o IntelliJ IDEA é:
@@ -25,7 +25,7 @@ E marque estas opções:
 
 Assim:
 
-![Configuração para auto-import de classes no IntelliJ](/images/intellij-configuracao-atalho-auto-import.png){:width=100%}
+![Configuração para auto-import de classes no IntelliJ](/images/intellij/intellij-configuracao-atalho-auto-import.png){:width=100%}
 
 Pronto, agora quando o IntelliJ identificar uma classe que não tenha ambiguidade de import, ele vai importar a classe e organizar os imports automaticamente seu código.
 Isso é muito útil!
@@ -36,7 +36,7 @@ O IntelliJ não importa o `Map` inicialmente por ser possível mais de um import
 
 E quando eu apago a linha que tem o `Map` o `HashMap`, o IntelliJ já remove os imports sem eu precisar pressionar nenhuma tecla!
 
-![Exemplo de import automático no IntelliJ](/images/intellij-exemplo-auto-import.gif){:width=100%}
+![Exemplo de import automático no IntelliJ](/images/intellij/intellij-exemplo-auto-import.gif){:width=100%}
 
 ## Import de classes ambíguas
 
