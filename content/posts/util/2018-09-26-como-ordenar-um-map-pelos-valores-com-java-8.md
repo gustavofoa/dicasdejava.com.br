@@ -1,11 +1,11 @@
-title: Como ordenar um map pelos valores com java 8+
+title: Como ordenar um map pelos valores com Java 8+
 date: 2018-09-26
 author: Gustavo Furtado de Oliveira Alves
 category: Util
 tags: Java 8, Map, ordenação
 image: /images/logo-java.png
 
-O "Java 8" trouxe muitas coisas úteis para o desenvolvento Java.
+O **Java 8** trouxe muitas coisas úteis para o desenvolvento Java.
 Neste post vamos ver uma forma elegante de ordenar um Map pelos valores usando o `stream`,
 uma das funcionalidades introduzidas com o Java 8.
 
@@ -146,8 +146,32 @@ E a saída deste código é essa:
 Se você veio até este post querendo mais do que o código que faz a ordenação continue lendo,
 agora vamos tentar entender o que está acontecendo com o código de ordenação com Java 8 apresentado.
 
+A primeira coisa que temos que perceber é que nós usamos `stream` para fazer a ordenação.
+Precisamos do Stream para fazer operações de agregação e comparação. E a interface `Collection` recebeu um método para retornar um Stream a partir do no Java 8.
 
+Mas, infelizmente a interface `Map` não é uma filha de `Collection`, por isso
+nós precisamos obter o `Set` de `Map.Entry` do map.
+Ou seja, a coleção (set) de objetos que representam a combinação de chave/valor do Map. Fazemos isso através do método `.entrySet()` da interface `Map`.
+
+De posse de um `Set` nós podemos obter o Stream para fazer a ordenação, basta utilizar o método `.stream()` do `Set`.
+
+O `Stream` nos oferece um método para ordenação que recebe um `Comparator`: `.sorted(Comparator<? super T> comparator)`.
+
+Coincidentemente a classe `Map.Entry` tem um método `comparingByValue()` que retorna um Comparator já implementado
+que compara o os valores do Map em ordem natural, ou seja ascendente.
+
+Por fim, nós podemos coletar (`.collect`) o resultado do Stream em um outro `Map`, mas dessa vez utilizando a implementação `LinkedHashMap` para manter a ordenação que o Stream nos entrega.
+
+E para utilizar um Comparator que traz a ordem inverida, podemos obter um Comparator invertido através do método `.reverse()` da interface `Collection`.
+
+Gostou? Alguma dúvida? Utilize a área de comentários aqui em baixo.
 
 ## Referências:
 
 1. [Wikipedia: Lista de unidades federativas do Brasil por população](https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o){:target=\_blank}
+2. [Javadoc: Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html){:target=\_blank}
+3. [Javadoc: Map.Entry](https://docs.oracle.com/javase/8/docs/api/java/util/Map.Entry.html){:target=\_blank}
+4. [Javadoc: Map.Entry.comparingByValue](https://docs.oracle.com/javase/8/docs/api/java/util/Map.Entry.html#comparingByValue--){:target=\_blank}
+5. [Javadoc: Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html){:target=\_blank}
+6. [Javadoc: Collection.stream](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#stream--){:target=\_blank}
+7. [Código-fonte do exemplo](https://github.com/gustavofoa/examples.dicasdejava.com.br/blob/master/src/main/java/br/com/dicasdejava/util/OrdenarMapPorValores.java){:target=\_blank}
