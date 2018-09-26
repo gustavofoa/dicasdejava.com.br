@@ -42,7 +42,7 @@ EXTRA_PATH_METADATA = {
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['tag_cloud']
 
-MD_EXTENSIONS = ['codehilite', 'extra']
+# MD_EXTENSIONS = ['codehilite', 'extra']
 
 # Theme
 THEME = 'theme'
