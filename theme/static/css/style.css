@@ -92,7 +92,7 @@ footer {
 
  #sidebar-banner {
 	width: max-content;
-	background-color: black;
+	/* background-color: black; */
  }
  
  @media (min-width: 1200px){
