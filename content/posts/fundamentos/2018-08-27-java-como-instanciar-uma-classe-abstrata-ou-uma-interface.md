@@ -47,7 +47,7 @@ public class Principal {
 
 Veja abaixo um exemplo de excução deste código:
 
-![Como instanciar uma classe abstrata como classe anônima](/images/instanciar-classe-abstrata.gif){:width=100%}
+![Como instanciar uma classe abstrata como classe anônima](/images/instanciar-classe-abstrata.gif){:style="width:100%; padding:10px;"}
 
 
 ## Referências

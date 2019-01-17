@@ -48,7 +48,7 @@ e em seguida imprime cada argumento separadamente, ao imprimir cada item do arra
 Abaixo eu apresento a compilação e a execução deste programinha Java
 com diferentes argumentos de linha de comando (no Windows).
 
-![Execução de um programa Java com argumentos de linha de comando](/images/parametros-de-linha-de-comando.png){:width=100%}
+![Execução de um programa Java com argumentos de linha de comando](/images/parametros-de-linha-de-comando.png){:style="width:100%; padding:10px;"}
 
 De **bônus**, no exemplo acima eu mostro como compilar e executar uma classe
 que se encontra em um pacote.
