@@ -96,11 +96,11 @@ footer {
  }
  
  @media (min-width: 1200px){
-	.fix-bannner {
+	.fix-banner {
 		position: fixed;
 		top: 60px;
 	}
-	.fix-bannner-close-to-footer {
+	.fix-banner-close-to-footer {
 		position: fixed;
 		top: -60px;
 	}
