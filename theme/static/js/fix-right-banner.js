@@ -7,7 +7,7 @@ window.onscroll = function scrollFunction() {
 
     if (window.pageYOffset-80 > last_adsense_banner.offsetTop) {
         if(adsense_position == 0 
-            && !last_adsense_banner.classList.contains('fix-banner-close-to-footer"'))
+            && last_adsense_banner.offsetTop > 100)
             adsense_position = last_adsense_banner.offsetTop;
         last_adsense_banner.classList.add("fix-banner");
     }
