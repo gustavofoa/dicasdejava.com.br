@@ -11,7 +11,7 @@ window.onscroll = function scrollFunction() {
             adsense_position = last_adsense_banner.offsetTop;
         last_adsense_banner.classList.add("fix-banner");
     }
-    if (window.pageYOffset-80 < adsense_position || window.pageYOffset+600 > footer.offsetTop) {
+    if (window.pageYOffset-80 < adsense_position) {
         adsense_position = 0;
         last_adsense_banner.classList.remove("fix-banner");
     }
@@ -19,5 +19,8 @@ window.onscroll = function scrollFunction() {
         last_adsense_banner.classList.add("fix-banner-close-to-footer");
     else
         last_adsense_banner.classList.remove("fix-banner-close-to-footer");
+
+    if(window.pageYOffset+600 > footer.offsetTop)
+        last_adsense_banner.classList.remove("fix-banner");
 
 }
