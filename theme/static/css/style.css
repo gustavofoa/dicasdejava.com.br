@@ -89,11 +89,15 @@ footer {
  	text-align: justify;
  	font-size: 16px;
  }
+
+ #sider-banner {
+	width: max-content;
+ }
  
  @media (min-width: 1200px){
 	.fix-bannner {
 		position: fixed;
-		top: 80px;
+		top: 60px;
 	}
  }
  
