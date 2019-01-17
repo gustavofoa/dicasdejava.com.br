@@ -14,5 +14,9 @@ window.onscroll = function scrollFunction() {
         adsense_position = 0;
         last_adsense_banner.classList.remove("fix-bannner");
     }
+    if(window.pageYOffset+600 > footer.offsetTop)
+        last_adsense_banner.classList.add("fix-bannner-close-to-footer");
+    else
+        last_adsense_banner.classList.remove("fix-bannner-close-to-footer");
 
 }
