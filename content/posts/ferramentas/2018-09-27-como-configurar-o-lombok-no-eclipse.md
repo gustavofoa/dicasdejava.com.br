@@ -27,7 +27,7 @@ Para executar o Lombok basta dar "dois cliques" no arquivo ou, se você preferir
 java -jar lombok.jar
 ```
 
-![executar lombok.jar](/images/eclipse/executar-lombok.jar.gif){:width=100%}
+![executar lombok.jar](/images/eclipse/executar-lombok.jar.gif){:style="width:100%; padding:10px;"}
 
 ## 3. Selecionar o local onde está o eclipse
 
@@ -39,7 +39,7 @@ Mas se o seu eclipse não for encontrado pelo instalador do Lombok, você pode c
 
 Com a pasta do seu eclipse selecionada (você pode selecionar mais de uma), basta clicar no botão `Install / Update`.
 
-![instalar o lombok no eclipse](/images/eclipse/instalar-lombok-no-eclipse.gif){:width=100%}
+![instalar o lombok no eclipse](/images/eclipse/instalar-lombok-no-eclipse.gif){:style="width:100%; padding:10px;"}
 
 ## 5. Reiniciar o eclipse
 

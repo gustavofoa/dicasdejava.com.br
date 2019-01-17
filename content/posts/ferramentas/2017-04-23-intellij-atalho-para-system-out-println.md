@@ -8,11 +8,11 @@ image: /images/logo-intellij.png
 Para gerar o código ```System.out.println``` no **Intellij IDEA**,
 basta digitar ```sout``` e pressionar TAB ou ENTER.
 
-![Atalho sout no IntelliJ](/images/intellij/sout.png)
+![Atalho sout no IntelliJ](/images/intellij/sout.png){:style="width:100%; padding:10px;"}
 
 Com esse atalho o Intellij IDEA gera um ```System.out.println``` automaticamente.
 
-![Resultado do Atalho sout no IntelliJ](/images/intellij/sout.gif)
+![Resultado do Atalho sout no IntelliJ](/images/intellij/sout.gif){:style="width:100%; padding:10px;"}
 
 ##Referencias
 

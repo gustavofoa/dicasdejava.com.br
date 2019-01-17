@@ -27,7 +27,7 @@ Você pode seguir o passo-apasso abaixo para baixar o código da sua aplicação
 Acesse [https://start.spring.io/](https://start.spring.io/), configure os metadados básicos do seu projeto,
 quais dependências do Spring nós vamos utilizar (Web no caso) e pronto! Agora você pode baixar um arquivo ZIP com o seu projeto Spring-boot configurado.
 
-![Criando um projeto spring-boot simples](/images/spring-boot-swagger/criando-um-projeto-spring-boot.gif){:width=100%}
+![Criando um projeto spring-boot simples](/images/spring-boot-swagger/criando-um-projeto-spring-boot.gif){:style="width:100%; padding:10px;"}
 
 ### 2. Descompacte o arquivo ZIP localmente
 
@@ -42,7 +42,7 @@ Abra o prompt de comando e acesse a pasta descompactada. (`cd <caminho da pasta>
 Execute o comando `mvn clean install` para baixar as dependências do projeto através do maven.
 Você também pode utilizar o `_mvnw_ que vem no arquivo ZIP do mesmo jeito `mvnw clean install`.
 
-![mvn clean install](/images/spring-boot-swagger/mvn-clean-install.gif){:width=100%}
+![mvn clean install](/images/spring-boot-swagger/mvn-clean-install.gif){:style="width:100%; padding:10px;"}
 
 ### 5. Crie seu primeiro endpoint
 
@@ -77,7 +77,7 @@ Além disso ela tem um método com a anotação `@GetMapping` que diz qual méto
 Execute o comando `mvn spring-boot:run` para executar a sua aplicação.
 Você também pode utilizar o _mvnw_ que vem no arquivo ZIP do mesmo jeito `mvnw spring-boot:run`.
 
-![mvn spring-boot:run ](/images/spring-boot-swagger/mvn-spring-boot-run.gif){:width=100%}
+![mvn spring-boot:run ](/images/spring-boot-swagger/mvn-spring-boot-run.gif){:style="width:100%; padding:10px;"}
 
 A mensagem que aparece no final **"Tomcat started on port(s): 8080 (http)"** significa que a sua aplicação web já está rodando na porta 8080.
 
@@ -85,7 +85,7 @@ A mensagem que aparece no final **"Tomcat started on port(s): 8080 (http)"** sig
 
 Abra o seu browser e acesse a URL `http://localhost:8080/endpoint/`.
 
-![Acessando a aplicação pelo browser](/images/spring-boot-swagger/acesso-endpoint-browser.png)
+![Acessando a aplicação pelo browser](/images/spring-boot-swagger/acesso-endpoint-browser.png){:style="width:100%; padding:10px;"}
 
 ## Tudo pronto!
 

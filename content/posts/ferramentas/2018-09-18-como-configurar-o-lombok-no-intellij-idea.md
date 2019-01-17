@@ -30,13 +30,13 @@ Instalar o plugin do Lombok do Intellij IDEA é muito simples. Basta seguir os p
 
 ### 1. Acesse o menu `File > Settings` (ou o atalho `Ctrl+Alt+S`).
 
-![IntelliJ: File > Settings](/images/intellij/intellij-file-settings.png)
+![IntelliJ: File > Settings](/images/intellij/intellij-file-settings.png){:style="width:100%; padding:10px;"}
 
 ### 2. Acesse a opção `Plugins`.
 
 ### 3. Clique em  `Browse repositories`.
 
-![IntelliJ: Browse repositories...](/images/intellij/intellij-plugins-browse-repositories.png){:width=100%}
+![IntelliJ: Browse repositories...](/images/intellij/intellij-plugins-browse-repositories.png){:style="width:100%; padding:10px;"}
 
 ### 4. Pesquise por `Lombok Plugin`
 
@@ -44,7 +44,7 @@ Instalar o plugin do Lombok do Intellij IDEA é muito simples. Basta seguir os p
 
 ### 6. Clique em `Install`.
 
-![IntelliJ: Install Lombok Plugin...](/images/intellij/install-lombok-plugin.png){:width=100%}
+![IntelliJ: Install Lombok Plugin...](/images/intellij/install-lombok-plugin.png){:style="width:100%; padding:10px;"}
 
 ### 7. Após o download e a instalação do plugin, reinicie o Intellij IDEA.
 

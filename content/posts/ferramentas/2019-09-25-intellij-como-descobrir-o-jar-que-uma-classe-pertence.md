@@ -11,11 +11,11 @@ mas você precisa marcar a opção `Include non-project items`.
 
 Veja:
 
-![Como descobrir o jar a que uma classe pertence](/images/intellij/intellij-descobrir-jar-de-uma-classe.png){:width=100%}
+![Como descobrir o jar a que uma classe pertence](/images/intellij/intellij-descobrir-jar-de-uma-classe.png){:style="width:100%; padding:10px;"}
 
 O GIF abaixo mostra o atalho funcionando.
 
-![Ctrl+N no Intellij para descobrir o arquivo jar de uma classe](/images/intellij/intellij-descobrir-jar-de-uma-classe.gif){:width=100%}
+![Ctrl+N no Intellij para descobrir o arquivo jar de uma classe](/images/intellij/intellij-descobrir-jar-de-uma-classe.gif){:style="width:100%; padding:10px;"}
 
 ##Referencias
 

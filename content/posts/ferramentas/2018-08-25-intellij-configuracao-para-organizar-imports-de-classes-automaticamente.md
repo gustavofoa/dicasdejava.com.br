@@ -25,7 +25,7 @@ E marque estas opções:
 
 Assim:
 
-![Configuração para auto-import de classes no IntelliJ](/images/intellij/intellij-configuracao-atalho-auto-import.png){:width=100%}
+![Configuração para auto-import de classes no IntelliJ](/images/intellij/intellij-configuracao-atalho-auto-import.png){:style="width:100%; padding:10px;"}
 
 Pronto, agora quando o IntelliJ identificar uma classe que não tenha ambiguidade de import, ele vai importar a classe e organizar os imports automaticamente seu código.
 Isso é muito útil!
@@ -36,7 +36,7 @@ O IntelliJ não importa o `Map` inicialmente por ser possível mais de um import
 
 E quando eu apago a linha que tem o `Map` o `HashMap`, o IntelliJ já remove os imports sem eu precisar pressionar nenhuma tecla!
 
-![Exemplo de import automático no IntelliJ](/images/intellij/intellij-exemplo-auto-import.gif){:width=100%}
+![Exemplo de import automático no IntelliJ](/images/intellij/intellij-exemplo-auto-import.gif){:style="width:100%; padding:10px;"}
 
 ## Import de classes ambíguas
 

@@ -7,18 +7,18 @@ image: /images/logo-spring-boot.png
 
 Quando você roda a sua aplicação Spring-boot você já deve ter percebido que aparece no log um texto "Spring" bem grande. Assim:
 
-![banner spring-boot](/images/spring-boot/banner-spring-boot.png){:width=80%}
+![banner spring-boot](/images/spring-boot/banner-spring-boot.png){:style="width:80%; padding:10px;"}
 
 Você gostaria de customizar esse banner no seu projeto do Spring-Boot?
 
 Para alterar o banner que aparece no log do Spring-boot basta, criar um arquivo chamado `banner.txt`
 na pasta `resources` do seu projeto.
 
-![arquivo banner.txt na pasta resources](/images/spring-boot/resources-banner.png){:width=60%}
+![arquivo banner.txt na pasta resources](/images/spring-boot/resources-banner.png){:style="width:60%; padding:10px;"}
 
 No arquivo `banner.txt` você pode colocar o texto que você quiser para aparecer no log.
 
-![banner spring-boot personalizado com texto Dicas de Java](/images/spring-boot/banner-dicas-de-java.png){:width=80%}
+![banner spring-boot personalizado com texto Dicas de Java](/images/spring-boot/banner-dicas-de-java.png){:style="width:80%; padding:10px;"}
 
 ### Escolhendo a fonte do texto
 
@@ -28,7 +28,7 @@ Eu acessei [esse site](https://devops.datenkollektiv.de/banner.txt/index.html){:
 
 Basta digitar o texto que você quer personalizar e escolher a fonte, dentre as várias que eles oferecem.
 
-![Gerador online de banner para o Spring-boot](/images/spring-boot/gerador-banner-spring-boot.png){:width=100%}
+![Gerador online de banner para o Spring-boot](/images/spring-boot/gerador-banner-spring-boot.png){:style="width:100%; padding:10px;"}
 
 Por fim, você pode copiar esse texto gerado pelo site e colar no seu arquivo `banner.txt`.
 
