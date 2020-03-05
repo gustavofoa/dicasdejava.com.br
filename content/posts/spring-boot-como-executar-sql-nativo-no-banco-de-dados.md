@@ -3,7 +3,7 @@ title: 'Spring-boot: Como executar SQL nativo no banco de dados'
 date: '2020-03-05'
 author: Gustavo Furtado de Oliveira Alves
 category: Frameworks
-tags: 'Spring-Boot, JPA, Spring Data'
+tags: 'Spring-Boot, JPA, Spring Data, SQL'
 image: /images/logo-spring-boot.png
 ---
 Embora, com o Spring-boot é sempre indicado trabalhar com o banco de dados via os mapeamentos Objeto-Relacional e os *Repositorys*. Pode ser que você precise, por algum motivo, **executar um comando SQL nativo no banco de dados com Spring-boot**. Vamos ver neste post uma forma bem simples de fazer isso.
