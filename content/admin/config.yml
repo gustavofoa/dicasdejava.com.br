@@ -1,0 +1,25 @@
+backend:
+    name: github
+    repo: gustavofoa/dicasdejava.com.br
+    branch: master
+    site_domain: dicasdejavacombr.netlify.com
+
+media_folder: "content/images"
+public_folder: "/images"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "post"
+    label: "Artigos"
+    folder: "content"
+    sort: "date:desc"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Data de publicacao", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Autor", name: "author", widget: "string", default: "Gustavo Furtado de Oliveira Alves"}
+      - {label: "Categoria", name: "category", widget: "select", options: ["Ferramentas", "Frameworks", "Fundamentos", "Util"], default: "Util"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Descricao", name: "description", widget: "string", default: "Reflexão sobre "}
+      - {label: "Imagem de destaque", name: "image", widget: "image"}
+      - {label: "Conteudo", name: "body", widget: "markdown"}
