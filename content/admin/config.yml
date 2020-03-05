@@ -19,7 +19,7 @@ collections:
       - {label: "Data de publicacao", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Autor", name: "author", widget: "string", default: "Gustavo Furtado de Oliveira Alves"}
       - {label: "Categoria", name: "category", widget: "select", options: ["Ferramentas", "Frameworks", "Fundamentos", "Util"], default: "Util"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Descricao", name: "description", widget: "string"}
       - {label: "Imagem de destaque", name: "image", widget: "image"}
       - {label: "Conteudo", name: "body", widget: "markdown"}

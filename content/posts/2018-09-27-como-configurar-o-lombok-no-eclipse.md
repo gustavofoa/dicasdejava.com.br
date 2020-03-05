@@ -1,9 +1,11 @@
+---
 title: Como configurar o lombok no Eclipse
-date: 2018-09-27
+date: '2018-09-27'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
 tags: instalar, lombok, Eclipse
 image: /images/logo-eclipse.jpg
+---
 
 Como já comentamos [aqui](https://dicasdejava.com.br/como-configurar-o-lombok-no-intellij-idea/),
 o Lombok facilita muito o desenvolvimento de códigos java, minimizando a quantidade de código necessário no seu projeto.

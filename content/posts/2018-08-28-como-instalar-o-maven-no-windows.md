@@ -1,9 +1,11 @@
+---
 title: Como instalar o MAVEN no Windows
-date: 2018-08-28
+date: '2018-08-28'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
 tags: instalar, maven, windows
 image: /images/logo-maven.png
+---
 
 O **maven** é um dos principais gerenciadores de dependências conhecidos para Java.
 Mas este nome pode assustar um pouco os iniciantes no desenvolvimento Java

@@ -1,9 +1,11 @@
+---
 title: Intellij IDEA: Configuração para organizar imports de classe automaticamente
-date: 2018-08-25
+date: '2018-08-25'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
 tags: atalhos, Intellij IDEA
 image: /images/logo-intellij.png
+---
 
 Uma das primeiras dúvidas de quem migra do eclipse para o IntelliJ IDEA é:
 

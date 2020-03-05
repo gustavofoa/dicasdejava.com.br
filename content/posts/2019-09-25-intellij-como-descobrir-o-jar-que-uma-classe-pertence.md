@@ -1,9 +1,11 @@
+---
 title: Intellij IDEA: Como descobrir o jar que uma classe pertence
-date: 2018-09-25
+date: '2018-09-25'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
 tags: atalhos, Intellij IDEA, jar
 image: /images/logo-intellij.png
+---
 
 Se você quiser descobrir em qual arquivo **.jar** uma classe pertence com o IntelliJ IDEA,
 basta usar o atalho `Ctrl+N` e digitar o nome da classe,

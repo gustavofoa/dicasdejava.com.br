@@ -1,9 +1,11 @@
+---
 title: Como configurar o lombok no IntelliJ IDEA
-date: 2018-09-18
+date: '2018-09-18'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
 tags: instalar, lombok, Intellij IDEA
 image: /images/logo-intellij.png
+---
 
 O projeto Lombok é uma biblioteca java que você pode adicionar na sua IDE e ferramenta de _build_ para minimizar a quantidade de código necessário no seu projeto.
 
