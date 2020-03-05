@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "post"
     label: "Artigos"
-    folder: "content"
+    folder: "content/posts"
     sort: "date:desc"
     create: true
     fields:
