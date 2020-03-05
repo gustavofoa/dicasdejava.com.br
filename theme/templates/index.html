@@ -13,8 +13,8 @@
         </div>
 
         <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-            title="{{ (article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1]) |striptags }}">
-            {{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] }}</a>
+            title="{{ (article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1]) | replace("''","'") |striptags }}">
+            {{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] | replace("''","'") }}</a>
         </h2>
         <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
         <address class="vcard author">Por

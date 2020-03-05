@@ -5,7 +5,7 @@
 <dl>
 {% for article in dates %}
     <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] }}</a></dd>
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] | replace("''","'") }}</a></dd>
 {% endfor %}
 </dl>
 {% endblock %}

@@ -14,8 +14,8 @@
                 </div>
     			<h4 class="entry-title">
                     <a href="{{ SITEURL }}/{{ a.url }}" rel="bookmark"
-                    title="{{ (a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1]) | striptags }}">
-                        {{ a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1] }}
+                    title="{{ (a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1]) | replace("''","'") | striptags }}">
+                        {{ a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1] | replace("''","'") }}
                     </a>
                 </h4>
                 <time class="published" datetime="{{ a.date.isoformat() }}"> {{ a.locale_date }} </time>
