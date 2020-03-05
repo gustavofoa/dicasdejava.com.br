@@ -20,6 +20,6 @@ collections:
       - {label: "Autor", name: "author", widget: "string", default: "Gustavo Furtado de Oliveira Alves"}
       - {label: "Categoria", name: "category", widget: "select", options: ["Ferramentas", "Frameworks", "Fundamentos", "Util"], default: "Util"}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Descricao", name: "description", widget: "string", default: "Reflexão sobre "}
+      - {label: "Descricao", name: "description", widget: "string"}
       - {label: "Imagem de destaque", name: "image", widget: "image"}
       - {label: "Conteudo", name: "body", widget: "markdown"}
