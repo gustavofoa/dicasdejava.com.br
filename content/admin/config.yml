@@ -17,7 +17,7 @@ collections:
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Data de publicacao", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Data de publicacao", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Autor", name: "author", widget: "string", default: "Gustavo Furtado de Oliveira Alves"}
       - {label: "Categoria", name: "category", widget: "select", options: ["Ferramentas", "Frameworks", "Fundamentos", "Util"], default: "Util"}
       - {label: "Tags", name: "tags", widget: "string"}
