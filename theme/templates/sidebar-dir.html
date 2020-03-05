@@ -13,8 +13,9 @@
                     </a>
                 </div>
     			<h4 class="entry-title">
-                    <a href="{{ SITEURL }}/{{ a.url }}" rel="bookmark" title="{{ a.title|striptags }}">
-                        {{ a.title }}
+                    <a href="{{ SITEURL }}/{{ a.url }}" rel="bookmark"
+                    title="{{ (a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1]) | striptags }}">
+                        {{ a.title if a.title[0:1] != '\'' else a.title[1:(a.title | length)-1] }}
                     </a>
                 </h4>
                 <time class="published" datetime="{{ a.date.isoformat() }}"> {{ a.locale_date }} </time>
@@ -37,7 +38,7 @@
               <a href="{{ SITEURL }}/{{ tag.0.url }}">
               {{ tag.0 }}
                   {% if TAG_CLOUD_BADGE %}
-                      <span class="badge">{{ tag.2 }}</span>
+                      <span class="badge">{{ tag.2 | replace("'","") }}</span>
                   {% endif %}
               </a>
           </li>

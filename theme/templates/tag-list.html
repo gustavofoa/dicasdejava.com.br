@@ -2,7 +2,7 @@
 <span class="tags-links">
 <i class="glyphicon glyphicon-tags"></i> 
 {% for tag in article.tags %}
-<a href="{{ SITEURL }}/tag/{{ tag.slug }}" rel="tag">{{ tag.name }}</a>
+<a href="{{ SITEURL }}/tag/{{ tag.slug }}" rel="tag">{{ tag.name | replace("'","") }}</a>
 {% endfor %}
 </span>
 {% endif %}
