@@ -13,6 +13,7 @@ collections:
     label: "Artigos"
     folder: "content/posts"
     sort: "date:desc"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
