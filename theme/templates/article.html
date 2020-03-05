@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock title %}
+{% block title %}{{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] }} - {{ SITENAME }}{% endblock title %}
 
 {% block head %}
   {{ super() }}
@@ -23,7 +23,7 @@
     <h2 class="entry-title">
       <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
          title="Permalink to {{ (article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1])|striptags }}">
-         {{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1]}}
+         {{ article.title if article.title[0:1] != '\'' else article.title[1:(article.title | length)-1] }}
       </a></h2>
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
