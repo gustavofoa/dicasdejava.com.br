@@ -2,7 +2,7 @@ backend:
     name: github
     repo: gustavofoa/dicasdejava.com.br
     branch: master
-    site_domain: dicasdejavacombr.netlify.com
+    site_domain: blogmusicasparamissacombr.netlify.com
 
 media_folder: "content/images"
 public_folder: "/images"
