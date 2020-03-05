@@ -1,5 +1,5 @@
 ---
-title: Intellij IDEA: Atalho para System.out.println
+title: 'Intellij IDEA: Atalho para System.out.println'
 date: '2018-04-23'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas

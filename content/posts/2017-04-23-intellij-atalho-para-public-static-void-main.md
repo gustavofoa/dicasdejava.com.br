@@ -1,5 +1,5 @@
 ---
-title: Intellij IDEA: Atalho para public static void main
+title: 'Intellij IDEA: Atalho para public static void main'
 date: '2018-04-23'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas

@@ -1,5 +1,5 @@
 ---
-title: Intellij IDEA: Configuração para organizar imports de classe automaticamente
+title: 'Intellij IDEA: Configuração para organizar imports de classe automaticamente'
 date: '2018-08-25'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas

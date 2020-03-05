@@ -1,5 +1,5 @@
 ---
-title: Intellij IDEA: Como descobrir o jar que uma classe pertence
+title: 'Intellij IDEA: Como descobrir o jar que uma classe pertence'
 date: '2018-09-25'
 author: Gustavo Furtado de Oliveira Alves
 category: Ferramentas
