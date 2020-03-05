@@ -16,7 +16,9 @@
       <ul class="nav navbar-nav navbar-right">
         {% if DISPLAY_CATEGORIES_ON_MENU %}
           {% for cat, null in categories %}
-          <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+            {% if cat != 'admin' %}
+              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+            {% endif %}
           {% endfor %}
         {% endif %}
         {% for title, link in MENUITEMS %}
