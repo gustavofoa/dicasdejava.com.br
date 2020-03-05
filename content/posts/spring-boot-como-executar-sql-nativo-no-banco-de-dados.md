@@ -6,7 +6,7 @@ category: Frameworks
 tags: 'Spring-Boot, REST, API'
 image: /images/logo-spring-boot.png
 ---
-Embora, com o Spring-boot é sempre indicado trabalhar com o banco de dados via os mapeamentos Objeto-Relacional e os *Repositorys*. Pode ser que você precise, por algum motivo, **executar um comando SQL nativo no banco de dados**. Vamos ver neste post uma forma bem simples de fazer isso.
+Embora, com o Spring-boot é sempre indicado trabalhar com o banco de dados via os mapeamentos Objeto-Relacional e os *Repositorys*. Pode ser que você precise, por algum motivo, **executar um comando SQL nativo no banco de dados com Spring-boot**. Vamos ver neste post uma forma bem simples de fazer isso.
 
 A primeira coisa, por questão de organização, eu sugiro que você crie um service para encapsular as execuções de SQL nativos. E neste service nós vamos incluir o código para executar um SQL nativo no banco de dados.
 
@@ -32,8 +32,6 @@ public class NativeScriptService {
 ```
 
 Bem simples né ...
-
-
 
 Veja que estamos recebendo o comando sql como parâmetro e a forma como executamos este comando com o Spring-boot está encapsulada. Se futuramente nós quisermos mudar a forma de executar o comando SQL nativo, basta mudar nesta classe. ;)
 
