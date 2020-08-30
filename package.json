@@ -22,6 +22,7 @@
     "gulp-connect": "^5.7.0",
     "gulp-shell": "^0.7.0",
     "gulp-watch": "^5.0.1",
-    "natives": "^1.1.6"
+    "natives": "^1.1.6",
+    "readline-sync": "^1.4.10"
   }
 }
