@@ -91,7 +91,7 @@ AUTHORS = {
         'summary': 'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
                   'Engenheiro da Computação pela ETEP Faculdades e '+
                   'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
-                  'Possui as certificações SCJP-6, SCWCD-5 e ASF '+
+                  'Possui as certificações AWS Architect Associate, AWS Cloud Practitioner, SCJP-6, SCWCD-5 e Agile Scrum Foundation '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': 'https://dicasdejava.com.br/images/author-gustavo.jpeg',
         'adsense': DEFAULT_ADSENSE,
