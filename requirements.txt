@@ -4,3 +4,4 @@ markdown==2.6.11
 ghp-import
 pelican-minify
 BeautifulSoup4
+Jinja2==3.0.0
